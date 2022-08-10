@@ -2,13 +2,19 @@
     "name": "hi",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "controller": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "animation": "*",
+        "edge-connector": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
